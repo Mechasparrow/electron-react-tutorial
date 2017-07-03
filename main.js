@@ -1,19 +1,3 @@
-# About
-This is the code repository for the finished react+electron setup tutorial
-
-#Tutorial
-
-Setup base react project
-
-```
-npm install -g create-react-app
-create-react-app your-app
-cd your-app
-```
-
-Add main.js
-
-```
 // ./main.js
 const {app, BrowserWindow} = require('electron')
 
@@ -49,28 +33,3 @@ app.on('window-all-closed', function () {
     app.quit();
   }
 });
-
-```
-
-Add main.js to package.json
-
-```
-{
-  ...
-  "main": "main.js",
-  ...
-}
-
-```
-
-Install electron
-
-`npm install -g electron`
-
-Launch react
-`npm start`
-
-Open a seperate terminal in the same directory and run
-`electron .`
-
-That should do it!

@@ -1,5 +1,6 @@
 {
   "name": "electron-react",
+  "main": "main.js",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
